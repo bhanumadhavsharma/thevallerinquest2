@@ -1,0 +1,11 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Label fx:id="label1" text="Line 1"  GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <Label fx:id="label2" text="Line 2" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <Button fx:id="button1" text="Click me!" onAction="#buttonClicked"/>
+</GridPane>
